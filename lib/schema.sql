@@ -31,7 +31,7 @@ CREATE TABLE characters (
   series_id INTEGER
 );
 
-CREATE TABLE books (
+CREATE TABLE charactes_in_books (
   id INTEGER PRIMARY KEY, 
   charcter_id INTEGER,
   book_id INTEGER
