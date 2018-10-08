@@ -1,1 +1,3 @@
-UPDATE characters WHERE 
+UPDATE characters 
+SET species
+WHERE id == 8
